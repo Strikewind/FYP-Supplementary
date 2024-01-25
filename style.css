@@ -6,6 +6,8 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Center the gallery horizontally */
+    align-items: center; /* Center the gallery vertically */
 }
 
 .gif {
@@ -17,4 +19,9 @@ body {
     max-width: 100%;
     border: 1px solid #ddd;
     border-radius: 4px;
+}
+
+/* Center the caption below the image */
+.gif p {
+    margin-top: 5px;
 }
