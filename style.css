@@ -16,27 +16,30 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 20px;
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    align-items: center;
 }
 
 .gif {
-    margin: 10px;
+    max-width: 300px; /* Adjust this to control the max width of the GIF container */
     text-align: center;
 }
 
 .gif img {
-    max-width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    max-width: 100%; /* Make sure the GIFs are responsive */
+    height: auto;
 }
 
 .gif p {
-    margin-top: 5px;
+    word-wrap: break-word;
+    padding: 10px;
+    font-size: 14px;
 }
+
