@@ -5,12 +5,13 @@
 
 .header h1 {
     font-family: 'Calibri', sans-serif;
-    font-size: 32px;
+    font-size: 26px;
     margin: 0;
 }
 
 .title {
     text-align: center;
+    font-size: 26px;
     margin-bottom: 20px;
 }
 
@@ -33,7 +34,7 @@ body {
 }
 
 .gif {
-    max-width: 100px;
+    max-width: 450px;
     text-align: center;
 }
 
