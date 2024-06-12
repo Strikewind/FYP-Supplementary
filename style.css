@@ -34,13 +34,18 @@ body {
 }
 
 .gif {
-    max-height: 300px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.gifwide {
+    max-width: 800px;
     text-align: center;
 }
 
 .gif img {
-    max-height: 100%;
-    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .gif p {
