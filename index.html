@@ -14,59 +14,59 @@
     <div class="gallery">
         <div class="gif">
             <img src="roll_noise_gif.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps), leading to prompt-to-video. No ControlNet yet.</p>
         </div>
         <div class="gif">
             <img src="roll912.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>2D pan animation (noise crystal method). ControlNet used from here on out.</p>
         </div>
         <div class="gif">
             <img src="roll7189.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Parallax dolly effect. Note lighting inconsistencies.</p>
         </div>
         <div class="gif">
             <img src="roll8654.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Recrystallization for 2D pan. Transformation happens after 75% of the way through diffusion process.</p>
         </div>
         <div class="gif">
             <img src="roll807.gif">
-            <p>Recrystallization: transformation only happens after 50% of the way through the diffusion process, allowing lighting to be more stable. Slightly more stable. Partial generation of the old skewed rock can be seen due to lack of clean plate background.</p>
+            <p>Recrystallization for parallax. Transformation happens after 50% of the way through diffusion process, allowing lighting to be more stable. Noise masking used. Partial generation of the old skewed rock can be seen due to lack of clean plate background.</p>
         </div>
         <div class="gif">
             <img src="roll9594.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Example where noise crystal method excels (no occlusions). Fence clur created through latent linear interpolation.</p>
         </div>
         <div class="gif">
             <img src="roll2641.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Liquid noise method (using VAE upscale). Noising is done to reduce VAE leak artifacts.</p>
         </div>
         <div class="gif">
             <img src="roll3248.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Liquid noise method (using VAE upscale and flow maps). Instead of noising, variance reduction is done to reduce VAE leak artifacts.</p>
         </div>
         <div class="gif">
             <img src="roll5960.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Zooming, showing sub-pixel movement capability with liquid noise (leak artifacts visible).</p>
         </div>
         <div class="gif">
             <img src="roll9205.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Rotation, showing sub-pixel movement capability with liquid noise (leak artifacts visible).</p>
         </div>
         <div class="gif">
             <img src="roll1872.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Attempt at rock parallax using liquid noise with layers. The varying speeds for each row cause flickering. Foreground grass movement is not realistic.</p>
         </div>
         <div class="gif">
             <img src="roll881.gif">
-            <p>Stacked prompt-to-image generations of rolling the latent input noise (and not the attention maps). Stable Diffusion and DDIM.</p>
+            <p>Image-to-video using flow maps which move limbs and mouth. Image from Adventure Time. Use permitted by https://www.gov.uk/guidance/exceptions-to-copyright#non-commercial-research-and-private-study</p>
         </div>
         <div class="gif">
             <img src="roll6370.gif">
-            <p>2D panning effect by rolling the noise, utilizing ControlNet to preserve outlines. Fine details between frames are nearly identical.</p>
+            <p>3-layer image-to-video scene (animating with layers). Turbulent hot air motion; tank motion.</p>
         </div>
         <div class="gifwide">
             <img src="vid2vidgif.gif">
-            <p>Recrystallization: transformation only happens after 50% of the way through the diffusion process, allowing lighting to be more stable. Slightly more stable. Partial generation of the old skewed rock can be seen due to lack of clean plate background.</p>
+            <p>Comparison of video-to-video style transfer without and with noise tracking. Note the facial artifacts in the sample without noise tracking.</p>
         </div>
     </div>
 </body>
